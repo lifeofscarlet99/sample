@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+}
+.about-me_list {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.1cm;
+}
+.about_me_link:hover {
+  color: silver;
+}
+
+.about_me_link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  list-style: none;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  white-space: nowrap;
+  /* margin-right: 5px; */
+}
+.about_me_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+.about-me_text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.about-me_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
